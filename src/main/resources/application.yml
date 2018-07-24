@@ -1,0 +1,15 @@
+spring:
+  mvc:
+     view:
+       prefix: /WEB-INF/views/
+       suffix: .jsp
+  datasource:
+     driver-class-name: oracle.jdbc.driver.OracleDriver
+     url: jdbc:oracle:thin:@FTdevdb02.dafycredit.com:1521:devdb02
+     data-username: DAFY_SALES2
+     data-password: Test$20150508
+mybatis:
+  mapper-locations: classpath:mapping/*.xml
+  type-aliases-package: com.giveu.giveufiletopartnerservicevhost.model
+
+
