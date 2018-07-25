@@ -1,8 +1,12 @@
 package com.giveu.giveufiletopartnerservicevhost.dao;
 
 import com.giveu.giveufiletopartnerservicevhost.model.FilePushFail;
-import java.math.BigDecimal;
+import org.apache.ibatis.annotations.Mapper;
+import org.springframework.stereotype.Component;
 
+import java.math.BigDecimal;
+@Component
+@Mapper
 public interface FilePushFailMapper {
     int deleteByPrimaryKey(BigDecimal id);
 

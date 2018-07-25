@@ -6,10 +6,10 @@ spring:
   datasource:
      driver-class-name: oracle.jdbc.driver.OracleDriver
      url: jdbc:oracle:thin:@FTdevdb02.dafycredit.com:1521:devdb02
-     data-username: DAFY_SALES2
-     data-password: Test$20150508
+     username: DAFY_SALES2
+     password: Test$20150508
 mybatis:
-  mapper-locations: classpath:mapping/*.xml
+  mapper-locations: classpath:mapper/*.xml
   type-aliases-package: com.giveu.giveufiletopartnerservicevhost.model
 
 
